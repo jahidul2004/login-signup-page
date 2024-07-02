@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 50%;
+  height: max-content;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px 10px #f1f1f1;
+  border-radius: 10px;
+}
+
+div h2 {
+  font-size: 30px;
+  color: #6c63ff;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+div input {
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+div button {
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  background-color: #6c63ff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div p {
+  color: #888888;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+div p span {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+div p a {
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: bold;
+}
